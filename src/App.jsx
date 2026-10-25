@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import {
-  Heart,
   ShieldAlert,
   Calendar as CalendarIcon,
   MessageCircle,
@@ -705,20 +704,15 @@ export default function App() {
           }}
         >
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <div
+            <img
+              src="./logo.png"
+              alt="Avena Kindred Circle Logo"
               style={{
-                width: '44px',
-                height: '44px',
-                borderRadius: '50%',
-                backgroundColor: colors.sage,
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                color: '#FFFFFF'
+                height: '46px',
+                width: 'auto',
+                objectFit: 'contain'
               }}
-            >
-              <Heart size={22} fill="white" />
-            </div>
+            />
             <div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexWrap: 'wrap' }}>
                 <span
